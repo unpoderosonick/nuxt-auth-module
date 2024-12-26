@@ -44,8 +44,16 @@ const handleLogout = async () => {
   await logout(); // Llama al método de logout
   router.push("/login"); // Redirige al login
 };
+
+
 </script>
 
+<script>
+// Asignar middleware de autenticación
+export default {
+  middleware: "auth",
+};
+</script>
 <style scoped>
 div {
   max-width: 600px;

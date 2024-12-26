@@ -55,6 +55,14 @@
       error.value = "Error al registrar: " + (err.message || "Inténtalo de nuevo.");
     }
   };
+  definePageMeta({
+    middleware: "auth",
+  });
+  
+  const handleLogin = () => {
+    // Lógica de login
+  };
+  
   </script>
   
   <style scoped>

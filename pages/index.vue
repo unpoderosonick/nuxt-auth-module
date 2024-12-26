@@ -5,3 +5,11 @@
     <nuxt-link to="/login" class="text-blue-500 underline">Ir al Login</nuxt-link>
   </div>
 </template>
+
+
+<script>
+// Asignar middleware de autenticación
+export default {
+  middleware: "auth",
+};
+</script>
