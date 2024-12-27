@@ -1,4 +1,4 @@
-cat > README.md <<EOF
+falta agregarle el filtro de vistas por usuario, ahorita cualquier usuario puede ver el /home de todos
 # Proyecto Nuxt 3: Sistema de Autenticación con Firebase
 
 ## **Descripción del Proyecto**
